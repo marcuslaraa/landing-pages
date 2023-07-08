@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>REENCONTROW</title>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/cabecalho.css">
-    <link rel="stylesheet" href="styles/principal.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/cabecalho.css" />
+    <link rel="stylesheet" href="styles/principal.css" />
+    <link rel="stylesheet" href="styles/footer.css">
   </head>
   <body>
     <header>
@@ -16,34 +20,74 @@
     </header>
     <main>
       <section class="container__principal">
-        <div>
-          <p>Uma plataforma completa de informações...</p>
-          <p>Já são mais de 4mil pessoas conectadas em nossa comunidade</p>
-          <a href="#">QUERO PARTICIPAR</a>
+        <div class="container__principal__texto">
+          <p class="paragrafo1">Uma plataforma completa de informações...</p>
+          <p class="paragrafo2">
+            Já são mais de 4mil pessoas conectadas em nossa comunidade
+          </p>
+          <a class="container__principal__texto__link" href="#"
+            >QUERO PARTICIPAR</a
+          >
         </div>
-        <img src="img/banner.svg" alt="Foto de um casal de abraçando e observando a vista.">
+        <img
+          class="container__principal__imagem"
+          src="img/banner.svg"
+          alt="Foto de um casal de abraçando e observando a vista."
+        />
       </section>
-      <section>
-        <h2>Principais assuntos abordados</h2>
-        <ul>
-          <li>
-            <img src="img/heart.svg" alt="ICONE CORAÇÃO">
+      <section class="container__principal__card">
+        <h2 class="container__principal__card__titulo">
+          Principais assuntos abordados
+        </h2>
+        <ul class="container__principal__card__lista">
+          <li class="container__principal__card__lista__item">
+            <img src="img/heart.svg" alt="ICONE CORAÇÃO" />
             <a href="#">RELACIONAMENTO</a>
           </li>
-          <li>
+          <li class="container__principal__card__lista__item">
             <img src="img/heart.svg" alt="ICONE CORAÇÃO"">
             <a href="#">SABEDORIA</a>
           </li>
-          <li>
+          <li class="container__principal__card__lista__item">
             <img src="img/heart.svg" alt="ICONE CORAÇÃO"">
             <a href="#">AMOR</a>
           </li>
-          <li>
+          <li class="container__principal__card__lista__item">
             <img src="img/heart.svg" alt="ICONE CORAÇÃO"">
             <a href="#">AMIZADE</a>
           </li>
         </ul>
       </section>
+
+      <aside class="container__secundario">
+        <div>
+          <h3>UMA COMUNIDADE SOBRE RELACIONAMENTO AMOROSO...</h3>
+          <p>
+            Ensinamentos para você recomquistar o seu amor. <br><br> Pra você que é
+            acanhado(a)...
+          </p>
+          <a href="#">QUERO FAZER PARTE</a>
+        </div>
+        <img src="img/img-aside.svg" alt="Um casal se beijando" />
+      </aside>
     </main>
+
+    <footer class="rodape">
+      <form class="rodape__form">
+        <p>RECEBA NOSSOS MATERIAIS EDUCATIVOS </p>
+        <p>GRATUITAMENTE EM SEU EMAIL</p>
+        <input class="dados" type="text" placeholder="SEU NOME" required>
+        <input class="dados" type="email" placeholder="E-MAIL">
+        <input class="btn" type="submit" value="QUERO RECEBER">
+      </form>
+      <div class="rodape__redes">
+        <p>NOSSAS REDES SOCIAIS</p>
+        <figure>
+          <a href="#"><img src="img/instagram.svg" alt="Logo instagram"></a>
+          <a href="#"><img src="img/twitter.svg" alt="Logo Twitter"></a>
+          <a href="#"><img src="img/facebook.svg" alt="Logo Facebook"></a>
+        </figure>
+      </div>
+    </footer>
   </body>
 </html>
