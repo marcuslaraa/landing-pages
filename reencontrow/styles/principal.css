@@ -47,7 +47,8 @@
 
 .container__principal__card__lista {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 3rem;
     margin: 8rem 14rem;
 }
 
