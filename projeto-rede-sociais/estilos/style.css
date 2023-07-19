@@ -59,3 +59,7 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px #000;
     transition: transform 0.5s, border 1s;
 }
+
+section#redes-sociais > a > [href] {
+    width: 10px;
+}
