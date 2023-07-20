@@ -27,7 +27,7 @@ main {
 
 section#login {
     background-color: #fff;
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 12px;
     position: absolute;
@@ -38,6 +38,7 @@ section#login {
     box-shadow: 0px 0px 10px #00000450;
 
     transition: width .3s, heigth .3s;
+    transition-timing-function: ease ;
 }
 
 section#login > div#imagem {
@@ -52,3 +53,28 @@ section#login > div#formulario {
     padding: 10px;
 }
 
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+#formulario > p {
+    text-align: start;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+form > div > input {
+    width: 70%;
+}
+
+form > div > label {
+    font-size: .8em;
+}
+
+.btn {
+    display: inline-block;
+    align-items: center;
+}

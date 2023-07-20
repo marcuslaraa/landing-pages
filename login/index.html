@@ -1,35 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/media-query.css" />
+  </head>
+  <body>
     <main>
-        <section id="login">
-            <div id="imagem">
-                <!-- <img src="imagens/pexels-egor-kunovsky-17113991.jpg" alt="Imagem Hotel"> -->
+      <section id="login">
+        <div id="imagem">
+          <!-- <img src="imagens/pexels-egor-kunovsky-17113991.jpg" alt="Imagem Hotel"> -->
+        </div>
+        <div id="formulario">
+          <h1>Login</h1>
+          <p>
+            Sejá bem vindo(a) novamente. Faça login para acessar sua conta e
+            pode fazer as configurações no seu ambiente.
+          </p>
+          <form action="login.php" method="post" autocomplete="on">
+            <div>
+              <span class="material-symbols-outlined"> person </span>
+              <input
+              type="email"
+              id="iemail"
+              name="email"
+              required
+              placeholder="Seu e-mail"
+              autocomplete="email"
+              />
+              <label for="iemail">E-mail:</label>
             </div>
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Sejá bem vindo(a) novamente. Faça login para acessar sua conta e pode fazer as configurações no seu ambiente</p>
-                <form action="login.php" method="post">
-                    <p>
-                        <label for="iemail">E-mail:</label>
-                        <input type="email" id="iemail" name="email" required placeholder="Digite seu e-mail">
-                    </p>
 
-                    <p>
-                        <label for="isenha">Senha:</label>
-                        <input type="password" id="isenha" name="senha" required placeholder="Digite a sua senha" minlength="6" maxlength="15">
-                    </p>
-                </form>
-
+            <div>
+              <span class="material-symbols-outlined"> key </span>
+              <input
+              type="password"
+              id="isenha"
+              name="senha"
+              required
+              placeholder="Sua senha"
+              minlength="6"
+              maxlength="15"
+              autocomplete="current-password"
+              />
+              <label for="isenha">Senha:</label>
             </div>
-        </section>
+            <div >
+                <input type="submit" value="Entrar">
+                <span class="material-symbols-outlined"> Login </span>
+            </div>
+
+            <div >
+                <a href="esquece.html">Esqueceu sua senha?</a>
+                <span class="material-symbols-outlined"> mail </span>
+            </div>
+
+          </form>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
