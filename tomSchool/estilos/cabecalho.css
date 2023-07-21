@@ -44,7 +44,7 @@ nav {
 
 }
 
-header > a {
+.link_btn{
     background-color: #ED4D1B;
     padding: 13px 45px;
     border: 2px solid #000;
