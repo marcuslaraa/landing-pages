@@ -80,8 +80,10 @@ main {
 #seta-info {
     position: absolute;
     margin-top:35px;
-    left: 72%;
+    left: 250px;
 }
+
+
 
 .card2 {
     background-color: #FF9A3C;
