@@ -89,3 +89,36 @@ main {
     background-color: #FF9A3C;
     margin-left: 38px;
 }
+
+.info_cursos {
+    margin: 2rem;
+}
+
+.titulo_cursos {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.titulo_cursos > span {
+    font-size: 40px;
+    font-weight: 900;
+    color: #ED4D1B;
+}
+
+.cursos {
+    display: block;
+    margin: auto;
+    margin-bottom: 8rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ED4D1B;
+    color: #000;
+    font-weight: 500;
+    width: 55%;
+    padding: 0.8rem 0.8rem;
+    box-shadow: 4px 4px 0px 0px #1E1E1E;
+    border: 2px solid #000;
+    
+}
